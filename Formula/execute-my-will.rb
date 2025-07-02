@@ -11,21 +11,21 @@ class ExecuteMyWill < Formula
     if Hardware::CPU.arm?
       binary_name = "execute-my-will-macos-arm64"
       url "#{base_url}/#{binary_name}"
-      sha256 "839552cd81236e6ff77af0c5194f583d0b0bb3d22e9518efeef974aea9ce1642"
+      sha256 "71189792b6945ad5361628e0a2ec4cf3bc7eb6bf43daeedd9ba0ca5612376b12"
     else
       binary_name = "execute-my-will-macos-x64"
       url "#{base_url}/#{binary_name}"
-      sha256 "a3579bb7ad14b8bfb843b4f15f342868d941be2eaa7539d127b90dad3c0dea77"
+      sha256 "c7aa7e6a42c1c6051d73bb31bdbcbbb9934b5d45aee5c395d844943ff581a371"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       binary_name = "execute-my-will-linux-arm64"
       url "#{base_url}/#{binary_name}"
-      sha256 "4c9583543744ca5f27cb8e53bd8787a0a520bcf67c51171c6c83ce4e04fee7fb"
+      sha256 "d34465f6d9e487e80106810c0303b71b341929cdd69f5a4686cffd899c9cefa4"
     else
       binary_name = "execute-my-will-linux-x64"
       url "#{base_url}/#{binary_name}"
-      sha256 "2b8fc1f15c64c8f3ff43cc9e4c42886c58b7254f882a55f1025a6e40c7502dd5"
+      sha256 "67ed1bd6cfa11a56dbc9b1e7bf83848d8f34af1eabc55ec7a1ad5e1d1ab2c811"
     end
   end
 
