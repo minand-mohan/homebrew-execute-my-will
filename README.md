@@ -3,5 +3,5 @@
 ## Installation
 
 ```bash
-brew tap yourusername/execute-my-will
+brew tap minand-mohan/execute-my-will
 brew install execute-my-will
