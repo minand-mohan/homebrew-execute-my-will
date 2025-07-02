@@ -25,7 +25,7 @@ class ExecuteMyWill < Formula
     else
       binary_name = "execute-my-will-linux-x64"
       url "#{base_url}/#{binary_name}"
-      sha256 "67ed1bd6cfa11a56dbc9b1e7bf83848d8f34af1eabc55ec7a1ad5e1d1ab2c811"
+      sha256 "a8a728d45b542a08126355eb32f4fdd1a6627bbff1f7fd316bc7fc134ce3dbad"
     end
   end
 
