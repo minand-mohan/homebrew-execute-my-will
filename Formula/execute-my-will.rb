@@ -15,7 +15,7 @@ class ExecuteMyWill < Formula
     else
       binary_name = "execute-my-will-macos-x64"
       url "#{base_url}/#{binary_name}"
-      sha256 "82b13ade8bcf8f9d59f77c475f3e00cd3135c291a8884f39d0e933c16a1e6f88"
+      sha256 "813ac79379e038969062ed66f5d1111cdb67b12cf92a9f28162c2ecf34d62915"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
@@ -25,7 +25,7 @@ class ExecuteMyWill < Formula
     else
       binary_name = "execute-my-will-linux-x64"
       url "#{base_url}/#{binary_name}"
-      sha256 "dec3da5ca42ceaeac77b7cd1d88360d36638f9ee7a1c87ca9bf28004d6898d34"
+      sha256 "4ec15a7b4ae383b82b1f11a6b64bfe8f96d39e54f21f6808c89f19955ad46ea2"
     end
   end
 
