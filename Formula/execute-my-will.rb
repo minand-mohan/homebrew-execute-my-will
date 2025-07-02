@@ -1,7 +1,7 @@
 class ExecuteMyWill < Formula
   desc "Your application description here"
   homepage "https://github.com/minand-mohan/execute-my-will"
-  version "0.1.3"
+  version "0.1.4"
   
   # Define the base URL for releases
   base_url = "https://github.com/minand-mohan/execute-my-will/releases/download/v#{version}"
