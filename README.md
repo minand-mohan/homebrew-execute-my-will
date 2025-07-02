@@ -1,2 +1,7 @@
-# homebrew-execute-my-will
-Brew tap for command line application execute-my-will
+# Execute My Will Homebrew Tap
+
+## Installation
+
+```bash
+brew tap yourusername/execute-my-will
+brew install execute-my-will
