@@ -1,7 +1,7 @@
 class ExecuteMyWill < Formula
   desc "Your application description here"
   homepage "https://github.com/minand-mohan/execute-my-will"
-  version "0.1.6"
+  version "0.2.0"
   
   # Define the base URL for releases
   base_url = "https://github.com/minand-mohan/execute-my-will/releases/download/v#{version}"
@@ -11,21 +11,21 @@ class ExecuteMyWill < Formula
     if Hardware::CPU.arm?
       binary_name = "execute-my-will-macos-arm64"
       url "#{base_url}/#{binary_name}"
-      sha256 "d748b33c656980c8d086df0d82d2c8c4c9f90045b2b5558feb60b8117614a3e2"
+      sha256 "a73cd75b658e8a337ced9b65fbf7dd518531e17529b0b0a5ba4d03e98258f98b"
     else
       binary_name = "execute-my-will-macos-x64"
       url "#{base_url}/#{binary_name}"
-      sha256 "ffe0c0b4d635778acbc30cc3f04829dd1751cc5177b4bdca0fdb6b6f96991372"
+      sha256 "92afb0db860594414ae2f9c8aabb2aee0a3f26dc23089fed070ed5240cbb2392"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       binary_name = "execute-my-will-linux-arm64"
       url "#{base_url}/#{binary_name}"
-      sha256 "b8a0a6c45f6b2a051695bef3a6ea23a13a0f849bd845775fd73ab0381971dd98"
+      sha256 "e49e5bbc241624c35a0590df5e513ee995255abb21901585cf7817e8b0bd4f6c"
     else
       binary_name = "execute-my-will-linux-x64"
       url "#{base_url}/#{binary_name}"
-      sha256 "d05b799f3c249abfb1d81cc707726d29feec6d8bef0e47330459e99ed4beea37"
+      sha256 "dd0b77ecbe901e0946a147cb68f3079eb8a97e25c394f6ae69d12f66f1bb6b50"
     end
   end
 
